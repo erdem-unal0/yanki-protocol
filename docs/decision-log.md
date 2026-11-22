@@ -1,6 +1,9 @@
-# YankiProtocol Decision Log
+# YANKI Protocol Decision Log
 
-This repository owns the protocol decisions for the YankiProtocol library. The
+**YANKI** — *Yerel Ağlarda Noktalararası Katmanlı İletişim* (Turkish) /
+*Layered Inter-Node Communication in Local Networks* (English).
+
+This repository owns the protocol decisions for the YANKI protocol library. The
 entries below are a scoped extract of the MeshForest project's single historical
 decision log; protocol decisions are authoritative here.
 
@@ -201,10 +204,10 @@ appropriate now")
 - **Report cadence note:** 300 s default stands; for rapid bench testing a
   shorter profile (e.g., 60 s) is recommended — already a config constant
   (`REPORT_INTERVAL_MS`), no spec change needed.
-- **Results (2026-10-20):** suite built and passing — see
-  `docs/test-log.md` (50 unit checks + 9 simulator scenarios, including a
-  real retry-scheduler off-by-one the tests caught before it could become a
-  firmware bug).
+- **Results (2026-10-20):** suite built and passing — see the MeshForest
+  application repository's test log (50 unit checks + 9 simulator scenarios,
+  including a real retry-scheduler off-by-one the tests caught before it could
+  become a firmware bug).
 
 ---
 

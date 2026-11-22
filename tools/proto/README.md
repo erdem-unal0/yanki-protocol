@@ -39,6 +39,7 @@ Python 3.14 on the dev machine (no g++ present, no external server needed).
 
 ## Last run
 
-2026-11-22 — all scenarios passed (see `docs/test-log.md`). Regenerated the
+2026-11-22 — all scenarios passed (test log kept in the MeshForest application
+repository). Regenerated the
 firmware golden vectors after decision D16 corrected the packet-header byte
 order to little-endian; the vectors above are the current reference set.

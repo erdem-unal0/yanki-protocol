@@ -1,14 +1,18 @@
-# MeshForest Network Protocol — Specification v1
+# YANKI Protocol — Specification v1
+
+**YANKI** — *Yerel Ağlarda Noktalararası Katmanlı İletişim* (Turkish) /
+*Layered Inter-Node Communication in Local Networks* (English).
 
 This document defines the custom wireless communication protocol used by the
 forest-fire detection mesh. It is the **authoritative reference for protocol
-behavior**. The working project specification (`forest_fire_mesh_node_project_spec.md`)
-remains the authority for project requirements; `decision-log.md` records why
-protocol decisions were made.
+behavior**. The working project specification (in the MeshForest application
+repository) remains the authority for project requirements; `decision-log.md`
+records why protocol decisions were made.
 
 - **Status:** Approved v1 baseline (design approved by the project owner on 2026-10-20).
 - **Implementation:** Demo build implemented (2026-10-24); first over-the-air
-  exchange confirmed 2026-11-06 — see `docs/test-log.md`. Known demo-build
+  exchange confirmed 2026-11-06 (test log kept in the MeshForest application
+  repository). Known demo-build
   omissions are listed in §16.1. This document must stay consistent with the
   firmware; deviations are defects.
 - **Maturity:** Experimental prototype protocol. It does **not** make the system

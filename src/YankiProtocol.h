@@ -1,6 +1,9 @@
 #pragma once
 /*
- * YankiProtocol.h — YankiProtocol 1.0.0
+ * YankiProtocol.h — YANKI Protocol 1.0.0
+ *
+ * YANKI — Yerel Ağlarda Noktalararası Katmanlı İletişim
+ *         (Layered Inter-Node Communication in Local Networks)
  *
  * Compact authenticated managed-flood mesh protocol for ESP8266.
  * Packet codec, AES-128-CMAC authentication, replay window, duplicate

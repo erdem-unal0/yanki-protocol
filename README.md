@@ -1,6 +1,9 @@
-# YankiProtocol
+# YANKI Protocol
 
-YankiProtocol is the standalone Arduino library for the MeshForest compact
+**YANKI** — *Yerel Ağlarda Noktalararası Katmanlı İletişim* (Turkish) /
+*Layered Inter-Node Communication in Local Networks* (English).
+
+YANKI Protocol is the standalone Arduino library for the MeshForest compact
 binary mesh protocol. It packages the protocol codec, AES-128-CMAC
 authentication, replay window, duplicate suppression, managed-flood relay, and
 gateway ACK logic as a reusable ESP8266 library.
