@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Arduino build output
+build/
+*.elf
+*.bin
+*.hex
+
+# Secrets — real deployment keys must NEVER be committed.
+secrets*.h
+
+# Editor / OS noise
+.vscode/
+.DS_Store
